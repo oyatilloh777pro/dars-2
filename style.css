@@ -1,0 +1,115 @@
+.logo {
+    width: 30px;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.into {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    width: 50%;
+    border-radius: 30px;
+}
+
+.left {
+    width: 48%;
+}
+
+.left h1 {
+    font-size: 40px;
+}
+
+.left p {
+    color: grey;
+    width: 600px;
+}
+
+.left button {
+    background-color: rgb(14, 148, 231);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+.right img {
+    width: 100%;
+    height: 80%;
+}
+
+.info h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.info p {
+    text-align: center;
+    color: grey;
+}
+
+.top, .bottom {
+    display: flex;
+    gap: 30px;
+}
+
+.bottom {
+    margin-top: 30px;
+}
+
+.card {
+    width: 32%;
+    justify-content: space-between;
+    box-shadow: 5px 5px 20px grey;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.card img {
+    width: 100px;
+}
+
+.services {
+    margin-top: 50px;
+}
+
+.more-btn {
+    background-color: white;
+    color: rgb(14, 148, 231);
+    border: 2px solid rgb(14, 148, 231);
+    padding: 10px;
+    border-radius: 30px;
+    width: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
