@@ -78,14 +78,18 @@ a {
 
 .card {
     width: 32%;
-    justify-content: space-between;
     box-shadow: 5px 5px 20px grey;
     padding: 15px;
     border-radius: 30px;
+    text-align: center;
 }
 
 .card img {
     width: 100px;
+}
+
+i {
+    font-size: 50px;
 }
 
 .services {
